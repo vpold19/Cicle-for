@@ -4,41 +4,31 @@ public class Main {
         task2();
         task3();
         task4();
-        task5();
-        task6();
-        task7();
-        task8();
-        task9();
-        task10();
     }
-    public static void task1(){
+
+    public static void task1() {
         System.out.println("Задача 1");
+        for (int n = 1; n <= 10; n = n + 1) {
+            System.out.println(n);
+        }
     }
-    public static void task2(){
+
+    public static void task2() {
         System.out.println("Задача 2");
+        for (int g = 10; g >= 1; g = g - 1) {
+            System.out.println(g);
+        }
     }
     public static void task3(){
         System.out.println("Задача 3");
+        for(int h=0; h<=17;h=h+2){
+            System.out.println(h);
+        }
     }
-    public static void task4(){
-        System.out.println("Задача 4");
-    }
-    public static void task5(){
-        System.out.println("Задача 5");
-    }
-    public static void task6(){
-        System.out.println("Задача 6");
-    }
-    public static void task7(){
-        System.out.println("Задача 7");
-    }
-    public static void task8(){
-        System.out.println("Задача 8");
-    }
-    public static void task9(){
-        System.out.println("Задача 9");
-    }
-    public static void task10(){
-        System.out.println("Задача 10");
+ public static void task4(){
+     System.out.println("Задача 4");
+     for(int v=10;v>=-10;v=v-1){
+         System.out.println(v);
+     }
     }
 }

@@ -57,11 +57,29 @@ public class Main {
 }
     public static void task8() {
         System.out.println("Задача 8");
+        int salaryMonth = 29000;
+        int total=0;
+        for(int i =0;i<12;i=i+1){
+            total=total+salaryMonth;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
     public static void task9() {
         System.out.println("Задача 9");
+        int salaryMonth = 29000;
+        double total=0;
+        double percent = 0.01;
+        for(int v=1;v<12;v=v+1){
+            total=(total+salaryMonth)*(1+percent);
+            System.out.println("Месяц " + v + " , сумма накоплений равна " + total + " рублей");
+        }
     }
+
     public static void task10() {
         System.out.println("Задача 10");
+        for(int g=2;g<=20;g=g*2){
+            System.out.println(g);
+        }
     }
+
 }

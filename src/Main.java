@@ -11,34 +11,75 @@ public class Main {
         task9();
         task10();
     }
-    public static void task1(){
+
+    public static void task1() {
         System.out.println("Задача 1");
+        for (int n = 1; n <= 10; n = n + 1) {
+            System.out.println(n);
+        }
     }
-    public static void task2(){
+
+    public static void task2() {
         System.out.println("Задача 2");
+        for (int g = 10; g >= 1; g = g - 1) {
+            System.out.println(g);
+        }
     }
     public static void task3(){
         System.out.println("Задача 3");
+        for(int h=0; h<=17;h=h+2){
+            System.out.println(h);
+        }
     }
-    public static void task4(){
-        System.out.println("Задача 4");
+ public static void task4(){
+     System.out.println("Задача 4");
+     for(int v=10;v>=-10;v=v-1){
+         System.out.println(v);
+     }
     }
     public static void task5(){
         System.out.println("Задача 5");
+        for(int i=1904;i<2096;i=i+4){
+            System.out.println(i + " год является високосным");
+        }
     }
     public static void task6(){
-        System.out.println("Задача 6");
+        System.out.println("Задачв 6");
+        for(int c=7;c<=98;c=c+7){
+            System.out.println(c);
+        }
     }
     public static void task7(){
-        System.out.println("Задача 7");
-    }
-    public static void task8(){
+        System.out.println("Задачв 7");
+        for(int m=2;m<=512;m=m*2){
+            System.out.println(m);
+        }
+}
+    public static void task8() {
         System.out.println("Задача 8");
+        int salaryMonth = 29000;
+        int total=0;
+        for(int i =0;i<12;i=i+1){
+            total=total+salaryMonth;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
-    public static void task9(){
+    public static void task9() {
         System.out.println("Задача 9");
+        int salaryMonth = 29000;
+        double total=0;
+        double percent = 0.01;
+        for(int v=1;v<12;v=v+1){
+            total=(total+salaryMonth)*(1+percent);
+            System.out.println("Месяц " + v + " , сумма накоплений равна " + total + " рублей");
+        }
     }
-    public static void task10(){
+
+    public static void task10() {
         System.out.println("Задача 10");
+        for(int g=2;g<=20;g=g*2){
+            System.out.println(g);
+        }
     }
+
 }

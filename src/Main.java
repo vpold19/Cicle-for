@@ -77,8 +77,8 @@ public class Main {
 
     public static void task10() {
         System.out.println("Задача 10");
-        for(int g=2;g<=20;g=g*2){
-            System.out.println(g);
+        for(int g=1;g<=10;g=g+1){
+            System.out.println("2 * " + g + " = " + 2 * g);
         }
     }
 
